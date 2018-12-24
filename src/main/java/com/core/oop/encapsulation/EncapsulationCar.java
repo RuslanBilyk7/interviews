@@ -1,6 +1,11 @@
 package main.java.com.core.oop.encapsulation;
 
 class Car {
+    public Car(int yearOfProduct, String nameOfModel) {
+        this.yearOfProduct = yearOfProduct;
+        this.nameOfModel = nameOfModel;
+    }
+
     public int getYearOfProduct() {
         return yearOfProduct;
     }
@@ -20,17 +25,19 @@ class Car {
     }
 
     private String nameOfModel;
+
+    private void drive() {
+        System.out.println("i am driving");
+    }
 }
 
 public class EncapsulationCar {
     public static void main(String[] args) {
-        Car car = new Car();
-        car.setNameOfModel("Suzuki");
-        car.setYearOfProduct(2015);
+        Car car = new Car(2015, "Suzuki");
 
-        System.out.println("Model- "+ car.getNameOfModel());
-        System.out.println("Year of product- " +car.getYearOfProduct());
-
+        System.out.println("Model- " + car.getNameOfModel());
+        System.out.println("Year of product- " + car.getYearOfProduct());
+//        car.drive(); no access!!!
     }
 }
 
