@@ -2,29 +2,29 @@ package main.java.com.core.oop.encapsulation;
 
 class Car {
     public Car(int yearOfProduct, String nameOfModel) {
-        this.yearOfProduct = yearOfProduct;
-        this.nameOfModel = nameOfModel;
+        this.yearProduct = yearOfProduct;
+        this.nameModel = nameOfModel;
     }
 
-    public int getYearOfProduct() {
-        return yearOfProduct;
+    public int getYearProduct() {
+        return yearProduct;
     }
 
-    public void setYearOfProduct(int yearOfProduct) {
-        this.yearOfProduct = yearOfProduct;
+    public void setYearProduct(int yearProduct) {
+        this.yearProduct = yearProduct;
     }
 
-    private int yearOfProduct;
+    private int yearProduct;
 
-    public String getNameOfModel() {
-        return nameOfModel;
+    public String getNameModel() {
+        return nameModel;
     }
 
-    public void setNameOfModel(String nameOfModel) {
-        this.nameOfModel = nameOfModel;
+    public void setNameModel(String nameModel) {
+        this.nameModel = nameModel;
     }
 
-    private String nameOfModel;
+    private String nameModel;
 
     private void drive() {
         System.out.println("i am driving");
@@ -35,8 +35,8 @@ public class EncapsulationCar {
     public static void main(String[] args) {
         Car car = new Car(2015, "Suzuki");
 
-        System.out.println("Model- " + car.getNameOfModel());
-        System.out.println("Year of product- " + car.getYearOfProduct());
+        System.out.println("Model- " + car.getNameModel());
+        System.out.println("Year of product- " + car.getYearProduct());
 //        car.drive(); no access!!!
     }
 }
