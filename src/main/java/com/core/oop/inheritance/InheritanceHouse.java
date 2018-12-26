@@ -30,7 +30,7 @@ class HouseFirst extends InheritanceHouse {
 }
 
 class HouseSecond extends HouseFirst {
-    boolean hasGarage;
+    private boolean hasGarage;
 
     HouseSecond(int square, String nameOwner, String colourHouse, boolean hasGarage) {
         super(square, nameOwner, colourHouse);

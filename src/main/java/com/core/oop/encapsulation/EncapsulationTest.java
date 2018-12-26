@@ -31,7 +31,7 @@ class Car {
     }
 }
 
-public class EncapsulationCar {
+public class EncapsulationTest {
     public static void main(String[] args) {
         Car car = new Car(2015, "Suzuki");
 
