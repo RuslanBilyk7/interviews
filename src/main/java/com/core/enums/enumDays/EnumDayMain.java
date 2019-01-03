@@ -16,15 +16,13 @@ public class EnumDayMain {
 
         switch (EnumDay.SATURDAY) {
             case FRIDAY:
-                System.out.println("This is a not Saturday");
+                System.out.println("This is not Saturday");
                 break;
-
             case SUNDAY:
-                System.out.println("This is a not Saturday");
+                System.out.println("This is not Saturday");
                 break;
-
             case SATURDAY:
-                System.out.println("This is a Saturday!!!");
+                System.out.println("This is Saturday!!!");
                 break;
         }
         System.out.println();

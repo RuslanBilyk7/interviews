@@ -14,6 +14,7 @@ public enum EnumApple {
         price = p;
     }
 
+    //Method
     int getPrice() {
         return price;
     }

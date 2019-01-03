@@ -8,5 +8,4 @@ enum EnumDay {
     FRIDAY,
     SATURDAY,
     SUNDAY
-
 }
