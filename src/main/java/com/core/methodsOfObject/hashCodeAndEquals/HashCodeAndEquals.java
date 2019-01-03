@@ -1,4 +1,4 @@
-package main.java.com.core.methodsOfObject.hashCode;
+package main.java.com.core.methodsOfObject.hashCodeAndEquals;
 
 import java.util.Objects;
 
@@ -7,10 +7,10 @@ public class HashCodeAndEquals {
         Simple obj1 = new Simple(100);
         Simple obj2 = new Simple(100);
 
-        System.out.println(obj1.sum(40, 20)+" " +obj1.x);
+//        System.out.println(obj1.sum(40, 20)+" " +obj1.x);
 
-        System.out.println(obj1.hashCode()); // Без переопределения
-        System.out.println(obj2.hashCode()); // Без переопределения
+        System.out.println(obj1.hashCode());
+        System.out.println(obj2.hashCode());
 
         System.out.println(obj1.equals(obj2));
 

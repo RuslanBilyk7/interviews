@@ -9,7 +9,6 @@ public class Test2 implements Cloneable {
     public Object clone() throws CloneNotSupportedException {
         //Присвойте поверхностную копию новой переменной ссылки t
         Test2 t = (Test2) super.clone();
-
         t.c = (Test) c.clone();
         return t;
 
