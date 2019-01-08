@@ -1,7 +1,7 @@
 package main.java.com.core.methodsOfObject.clone.example2.deepCopy;
 
 /*для объекта-копии здесь назначен новый объект класса Test, который будет возвращен в методе clone. Благодаря этому t3 получит глубокую копию объекта t1. Таким образом, любые изменения, сделанные в полях объекта 'c' в t3, не будут отражены в t1.*/
-public class MainClone {
+public class MainCloneDeep {
     public static void main(String[] args) throws CloneNotSupportedException{
         Test2 t1 = new Test2();
         t1.a = 10;
