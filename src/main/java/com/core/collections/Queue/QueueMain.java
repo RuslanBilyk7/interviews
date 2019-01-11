@@ -11,7 +11,7 @@ public class QueueMain {
         Queue<String> queue = new LinkedList<>();
 
         // Adding new elements to the QueueMain (The Enqueue operation)
-        queue.add("aaa");
+        queue.add(null);
         queue.add("ddd");
         queue.add("ffff");
         queue.add("cccc");

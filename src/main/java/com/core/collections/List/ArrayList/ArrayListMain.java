@@ -9,6 +9,7 @@ class ArrayListMain {
         deliveryCities.add("Paris");
         deliveryCities.add("Toronto");
         deliveryCities.add("Toronto");
+        deliveryCities.add(null);
 
         deliveryCities.add(1, "Monaco");
 
@@ -32,6 +33,7 @@ class ArrayListMain {
 //            System.out.print (i+ " ");
 //        }
         deliveryCities.remove("Paris");// ore deliveryCities.remove(2);
+        deliveryCities.remove(null);// ore deliveryCities.remove(2);
         for (String i : deliveryCities
                 ) {
             System.out.print(i + " ");  //London Monaco Toronto Toronto

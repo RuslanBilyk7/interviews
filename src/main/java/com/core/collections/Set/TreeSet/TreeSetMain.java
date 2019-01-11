@@ -10,7 +10,10 @@ public class TreeSetMain {
         ts.add("ggg");
         ts.add("aaa");
         ts.add("bbb");
+//        ts.add(null);// error!!!
         ts.add("_bbb");
+
+//        System.out.println(ts.iterator());;
         /*Ttt  _bbb  aaa  bbb   ggg   ttt */
         for (String s : ts
                 ) {

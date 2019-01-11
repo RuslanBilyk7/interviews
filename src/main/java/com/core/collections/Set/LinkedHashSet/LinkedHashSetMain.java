@@ -10,6 +10,7 @@ public class LinkedHashSetMain {
         linkedHashSet.add("Second");
         linkedHashSet.add("Third");
         linkedHashSet.add("Third2");
+        linkedHashSet.add(null);
         linkedHashSet.add("Third4");
         linkedHashSet.add("Third3");
         linkedHashSet.add("Third3");  // it will not be added

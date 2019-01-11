@@ -11,6 +11,7 @@ public class LinkedListMain {
         cat.add("Bob");
         cat.add("Bobby");
         cat.add("Bob");
+        cat.add(null);
 
         for (String i : cat
                 ) {
@@ -26,6 +27,7 @@ public class LinkedListMain {
 
         //When we remove by value, the first found element with this value will be removed
         cat.remove("Bob");
+        cat.remove(null);
 
         //To remove or add element by index or value it will take O(n) time.
         //But using ListIterator it will take O(1) time. Less time
@@ -39,7 +41,7 @@ public class LinkedListMain {
 //        }
         for (String i : cat
                 ) {
-            if (i.equals("5")) {
+            if (i.equals("5")) {//NullPointerException  because of the line   cat.add(null);
                 cat.remove(i);
             }
             System.out.print(i + " ");

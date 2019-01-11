@@ -11,8 +11,10 @@ public class HashSetMain {
         hashSetMain.add("One");
         hashSetMain.add("Two");
         hashSetMain.add("Three");
+        hashSetMain.add(null);
         hashSetMain.add("Three");// it will not be added
         System.out.println("Size " + hashSetMain.size());
+//        System.out.println(hashSetMain.toString());
         for (String s : hashSetMain
                 ) {
             System.out.print(s + " ");
