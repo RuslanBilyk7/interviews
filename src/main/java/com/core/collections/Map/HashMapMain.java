@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HashMapMain {
     public static void main(String[] args) {
-        Map<String, Integer> hashMap = new HashMap<String, Integer>();
+        Map<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Bob", 10);
         hashMap.put("Bob", 20);// it will be overwrite first map "Bob"
         hashMap.put("Jeck", 30);
